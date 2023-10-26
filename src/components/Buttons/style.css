@@ -1,0 +1,181 @@
+.buttons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.buttons .text {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  letter-spacing: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.buttons .img {
+  height: 17.2px;
+  margin-bottom: -2.6px;
+  margin-top: -4.6px;
+  position: relative;
+  width: 17.67px;
+}
+
+.buttons .text-wrapper-3 {
+  color: var(--primary-blue);
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.buttons.banner-button-blue {
+  background-color: #304f6d;
+  border: 1px solid;
+  border-color: var(--primary-blue);
+  border-radius: 32px;
+  gap: 8px;
+  height: 50px;
+  padding: 18px 32px;
+  width: 255px;
+}
+
+.buttons.secondary-button-active {
+  border: 1px solid;
+  border-color: var(--primary-blue);
+  border-radius: 32px;
+  gap: 8px;
+  height: 46px;
+  padding: 18px 32px;
+  width: 166px;
+}
+
+.buttons.secondary-button-inactive {
+  border: 1px solid;
+  border-color: #acb9c5;
+  border-radius: 32px;
+  gap: 8px;
+  height: 46px;
+  padding: 18px 32px;
+  width: 166px;
+}
+
+.buttons.secondary-button-with-icon {
+  border: 1px solid;
+  border-color: var(--primary-blue);
+  border-radius: 32px;
+  gap: 8px;
+  height: 46px;
+  padding: 18px 32px;
+  width: 166px;
+}
+
+.buttons.primary-button {
+  background-color: var(--primary-blue);
+  border-radius: 32px;
+  gap: 8px;
+  height: 44px;
+  padding: 18px 32px;
+  width: 164px;
+}
+
+.buttons.onboarding-inactive {
+  background-color: #acb9c5;
+  border-radius: 38px;
+  gap: 12px;
+  overflow: hidden;
+  padding: 14px 24px;
+  width: 375px;
+}
+
+.buttons.banner-button-white {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--primary-blue);
+  border-radius: 32px;
+  gap: 8px;
+  height: 50px;
+  padding: 18px 32px;
+  width: 255px;
+}
+
+.buttons.onboarding-active {
+  background-color: #304f6d;
+  border-radius: 38px;
+  gap: 12px;
+  overflow: hidden;
+  padding: 14px 24px;
+  width: 375px;
+}
+
+.buttons.banner-button-blue .text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: normal;
+  margin-top: -0.5px;
+  text-align: center;
+}
+
+.buttons.secondary-button-active .text {
+  color: var(--primary-blue);
+  font-size: 14px;
+  line-height: normal;
+  margin-left: -13.5px;
+  margin-right: -11.5px;
+  margin-top: -1.5px;
+  text-align: center;
+}
+
+.buttons.secondary-button-inactive .text {
+  color: #acb9c5;
+  font-size: 14px;
+  line-height: normal;
+  margin-left: -13.5px;
+  margin-right: -11.5px;
+  margin-top: -1.5px;
+  text-align: center;
+}
+
+.buttons.secondary-button-with-icon .text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: normal;
+  margin-top: -1px;
+}
+
+.buttons.primary-button .text {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: normal;
+  margin-top: -2px;
+  text-align: center;
+}
+
+.buttons.onboarding-inactive .text {
+  color: #ffffffb2;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -1px;
+}
+
+.buttons.banner-button-white .text {
+  color: var(--primary-blue);
+  font-size: 16px;
+  line-height: normal;
+  margin-top: -0.5px;
+  text-align: center;
+}
+
+.buttons.onboarding-active .text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -1px;
+}
